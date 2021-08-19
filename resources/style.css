@@ -31,6 +31,7 @@ h2{
 .text{
 	font-size: 1.2rem;
 	font-weight: 100;
+	font-family: 'Space Grotesk', 'sans-serif';
 }
 #mainBody{
 	padding-left: 10%;
