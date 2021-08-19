@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Space+Grotesk:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Space+Grotesk:wght@300;400;500&family=Roboto+Mono:wght@200&display=swap');
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background-color: #3d3d5c;
     color: white;
 
 }
 h1{
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 300;
-	margin: 10%;
+	margin-top: 10%;
+	margin-bottom: 2%;
 }
 h2{
     text-align: center;
     font-size: 2em;
-    font-weight: 100;
-    margin: 0;
+    font-weight: 300;
 }
 .main {
 	margin-left: 15%;
@@ -26,19 +26,33 @@ h2{
 	animation-play-state: running;
 	animation-iteration-count: 1;
 	margin-top: 5%;
-	background-color: grey;
+	background-color: rgb(134, 134, 148);
 }
 .text{
 	font-size: 1.2rem;
 	font-weight: 100;
-	font-family: 'Space Grotesk', 'sans-serif';
+	font-family: 'Roboto Mono', monospace;
+}
+.title{
+    text-align: center;
+	margin-bottom: 5%;
+}
+.iconLink{
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+
 }
 #mainBody{
 	padding-left: 10%;
 	padding-right: 10%;
 
 }
-
+#githubRepos{
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+}
 div{
 	display: block;
 	padding: 10px;
@@ -88,33 +102,3 @@ div{
 		margin-top: 5%;
    }
 }
-
-
-#Hotbar, #Hotbar2
-{
-	background-color: #595959; /* Grey */
-	overflow: hidden;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	width: 100%;
-}/* End of #Hotbar */
-li a
-{
-	display: block;
-    width: 150px;
-	padding: 8px 2px;
-	text-decoration: none;
-	color: white;
-	overflow: auto;
-	font-size: 20px;
-}/* End of li a */
-ol a:hover
-{
-	background-color: black;
-}/* End of ul a:hover */
-li
-{
-	float: left;
-}/* End of li */
